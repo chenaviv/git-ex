@@ -21,3 +21,10 @@ console.assert(isPrimeNum(17) === true, 'isPrimeNum thinks 17 is not prime. Chec
 console.assert(isPrimeNum(2) === true, 'isPrimeNum thinks 2 is not prime. Check yourself.');
 console.assert(isPrimeNum(1) === true, 'isPrimeNum thinks 1 is not prime. Check yourself.');
 console.assert(isPrimeNum(4) !== true, 'isPrimeNum thinks 4 is prime. Check yourself.');
+
+function getRandomColor() {
+    var colors = ['red', 'blue', 'pink', 'orange', 'green'];
+    return colors[Math.floor(Math.random() * colors.length)];
+}
+
+console.log(getRandomColor());
