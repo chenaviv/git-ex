@@ -15,6 +15,8 @@ function isPrimeNum(num) {
     return isPrime;
 }
 
+console.log('fixing bug');
+
 console.assert(isPrimeNum(17) === true, 'isPrimeNum thinks 17 is not prime. Check yourself.');
 console.assert(isPrimeNum(2) === true, 'isPrimeNum thinks 2 is not prime. Check yourself.');
 console.assert(isPrimeNum(1) === true, 'isPrimeNum thinks 1 is not prime. Check yourself.');
